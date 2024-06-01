@@ -1,0 +1,91 @@
+body {
+  background-color: #f7ecde;
+}
+
+body a {
+  text-decoration: none;
+  color: white;
+}
+
+h1,
+h3 {
+  font-size: 50px;
+  font-family: "Pacifico", cursive;
+  color: #352e28;
+  transition: 0.5s all;
+}
+
+h1:hover {
+  color: #fec260;
+}
+
+.Text-Des h2 {
+  font-family: "Righteous", cursive;
+  font-size: 25px;
+  background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+  background-color: transparent;
+  color: text;
+}
+
+hr.new3 {
+  border-top: 2px dotted black;
+}
+
+.Our-Form {
+  .Label-SName {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  input {
+    height: 40px;
+    outline: none;
+    border: 1px solid lightgray;
+  }
+  input:focus {
+    box-shadow: 1px 0px 1px 3px #d99c39;
+  }
+  .our-Btn {
+    width: 180px;
+    height: 40px;
+    background-color: #b94e30;
+    color: white;
+    border: none;
+  }
+  .our-Btn:hover {
+    background-color: #bb4120;
+  }
+}
+
+table {
+  .Our-Btn {
+    width: 90px;
+    height: 40px;
+    color: white;
+  }
+  .Delete-Btn {
+    background-color: #eb1d36;
+  }
+  .Delete-Btn:hover {
+    background-color: #ba081d;
+  }
+  .Visit-Btn {
+    background-color: #9eb23b;
+  }
+  .Visit-Btn:hover {
+    background-color: #6e8018;
+  }
+}
+
+.ourSearch {
+  height: 40px;
+  outline: none;
+  border: 1px solid lightgray;
+}
+
+.ourSearch:focus {
+  box-shadow: 1px 0px 1px 3px #d99c39;
+}
+
+h3:hover {
+  color: #fec260;
+}
