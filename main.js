@@ -82,7 +82,6 @@ btnSubmit.addEventListener("click", function (event) {
 function viewData(OurBookmarks) {
     if (OurBookmarks == "") {
         container.innerHTML = `<tr><td colspan="4"><img src="./images/notfound.gif" class="notfound" alt=""></td></tr>`;
-        window.location.reload();
     } else {
         let BookmarkInputData = ""
         for (let i = 0; i < OurBookmarks.length; i++) {
